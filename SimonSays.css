@@ -43,7 +43,6 @@ h1 {
   padding: 5px;
   grid-template-areas:
     'difficulty'
-    'time'
     'pause'
     'start'
     'round'
@@ -51,6 +50,10 @@ h1 {
 }
 .right > button {
 
+}
+
+.difficulty {
+  margin-bottom: 35px;
 }
 
 .grid-container > footer {

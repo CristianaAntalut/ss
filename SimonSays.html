@@ -1,7 +1,6 @@
 <!DOCTYPE html>
     <header>
         <link href="SimonSays.css" rel="stylesheet">
-
     </header>
     </body>
     <div class="grid-container">    
@@ -27,13 +26,21 @@
                 <option>easy</option>
                 <option>hard</option>
             </select>
-            <div class="time"/>X</div>
-            <button class="start" >START</button>
-            <button class="pause">PAUSE</button>
-            <div class="round">Round: Y</div>
-            <div class="bestScore">MAX Score</div>    
+            
+            <button id="start" >START</button>
+            <button id="pause">PAUSE</button>
+            
+            <div>Round: 
+                <div id="round"></div> 
+            </div>
+            <div> Highest Score:
+                <div id="highScore">x</div>
+            </div>    
         </div>
         <footer> this is down</footer>
     </div>
+
+    <script src="SimonSays.js"></script>    
+    
     </body>
 </html>
